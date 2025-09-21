@@ -53,6 +53,10 @@ The following steps are to be performed
 ### 7. Define a main function to process images.
 ### 8. Run the Python script image_labels_generator.py to generate labels.
 
+## Outcome
+This automatically generate labels for any uploaded images. This enables to integrate Amazon Rekognition with S3 and Python.
+
+
 The full python script are below
 
 Create a new Python file, `image_labels_generator.py`, and import the required libraries:
@@ -85,23 +89,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-### How to Run
-
-Save the script as image_labels_generator.py.
-Update these values inside the main() function:
-bucket_name = "your-s3-bucket-name"
-photo_name = "your-image-file.jpg"
-Run the script:
-python image_labels_generator.py
-
-
-## Outcome
-
-This automatically generate labels for any uploaded images. This enables how to integrate Amazon Rekognition with S3 and Python.
-
-Be able to automatically generate labels for any uploaded images.
 
 
 
