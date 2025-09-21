@@ -1,12 +1,9 @@
-# Build-An-Image-Labels-Generator-Using-Amazon-Rekognition
-Build an image labels generator using Amazon Rekognition using the management console.
+# Image Labels Generator with Amazon Rekognition
+Project Overview
 
-# Image Labels Generator using Amazon Rekognition
+This project demonstrates how to build an Image Labels Generator using Amazon Rekognition. The tool analyzes images and automatically generates descriptive labels.
 
-## Overview of Project ☁️
-
-In this project, we will be building an image labels generator using Amazon Rekognition. This tool will recognize and label images. For example, if you have a photo of a cat, Amazon Rekognition will be able to identify and label the image as a cat. This project is both fun and educational, demonstrating the power of AWS services.
-
+For example: if you upload a picture of a cat, Rekognition can detect and label it as “Cat”. This project highlights the power of AWS AI/ML services in a practical, fun, and educational way.
 ## Steps to be performed 👩‍💻
 
 In the next few lessons, we'll be going through the following steps:
