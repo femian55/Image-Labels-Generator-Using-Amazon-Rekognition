@@ -41,22 +41,19 @@ The following steps are to be performed
 ### 3. Installing and Configuring the AWS Command Line Interface (CLI)
 
 1. Install the AWS CLI from the [official website](https://aws.amazon.com/cli/).
-2. Configure the CLI with your AWS credentials:
+2. Configure the CLI AWS credentials:
     ```bash
     aws configure
     ```
-   Enter your Access Key ID, Secret Access Key, region, and output format.
+   Enter the Access Key ID, Secret Access Key, region, and output format.
 
 ### 4. Importing Libraries
-**### 5. Add Rekognition Logic**
+### 5. Add Rekognition Logic
+### 6. Define a detect_labels function to call Rekognition.
+### 7. Define a main function to process images.
+### 8. Run the Python script image_labels_generator.py to generate labels.
 
-Define a detect_labels function to call Rekognition.
-
-Define a main function to process images.
-
-Run the Python script to generate labels.
-Run the Script
-python image_labels_generator.py
+The full python script are below
 
 Create a new Python file, `image_labels_generator.py`, and import the required libraries:
 
@@ -90,9 +87,17 @@ if __name__ == "__main__":
     main()
 
 
+### How to Run
+
+Save the script as image_labels_generator.py.
+Update these values inside the main() function:
+bucket_name = "your-s3-bucket-name"
+photo_name = "your-image-file.jpg"
+Run the script:
+python image_labels_generator.py
 
 
-Outcome
+## Outcome
 
 This automatically generate labels for any uploaded images. This enables how to integrate Amazon Rekognition with S3 and Python.
 
