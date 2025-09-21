@@ -14,7 +14,7 @@ For example: if you upload a picture of a cat, Rekognition can detect and label 
   
 ## Prerequisites
 
-Before starting, the following are reuire.
+Before starting, the following are required.
 - An AWS account.
 - AWS CLI installed and configured with AWS credentials.
 - Python installed on local machine.
@@ -58,8 +58,7 @@ This automatically generate labels for any uploaded images. This enables to inte
 
 
 The full python script are below
-
-Create a new Python file, `image_labels_generator.py`, and import the required libraries:
+Create a new Python file was created, `image_labels_generator.py`, and the required libraries was imported:
 
 ```python
 import boto3
